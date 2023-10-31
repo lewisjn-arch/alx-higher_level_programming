@@ -2,15 +2,15 @@
 #include "lists.h"
 
 /**
- * cycle - checks if a singly-linked list contains a cycle
+ * check_cycle - checks if a singly-linked list contains a cycle
  * @list: a singly-linked list
  *
  * Return: if there is no cycle - 0
  *         if there is a cycle - 1
  */
-int cycle(int_list, *list)
+int check_cycle(listint_t, *list)
 {
-	int_list, *slow, *fast;
+	listint_t, *slow, *fast;
 
 	if (list == NULL || list->next == NULL)
 		return (0);
