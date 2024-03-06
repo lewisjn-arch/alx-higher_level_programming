@@ -1,0 +1,1 @@
+handle infinite conditions
