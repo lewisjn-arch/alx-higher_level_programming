@@ -1,1 +1,1 @@
-This is my first time learning python code
+Learning about high level programming
